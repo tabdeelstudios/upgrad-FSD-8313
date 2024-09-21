@@ -1,0 +1,34 @@
+Question: Employee Management System
+Write a Java program that simulates an employee management system using an ArrayList. The system should be able to:
+    - Add a new employee.
+    - Remove an employee by their employee ID.
+    - Display all the employees.
+    - Find an employee by their employee ID.
+
+Requirements:
+1. Each employee should have attributes: employeeID (integer), name (string), and department (string).
+2. The program should display a menu that allows the user to perform the above operations until they choose to exit.
+
+Example Output:
+Welcome to the Employee Management System
+1. Add a new employee
+2. Remove an employee by ID
+3. Display all employees
+4. Find an employee by ID
+5. Exit
+Enter your choice: 1
+Enter employee ID: 101
+Enter employee name: John Doe
+Enter employee department: HR
+Employee added successfully!
+
+Enter your choice: 3
+Employees:
+Employee ID: 101, Name: John Doe, Department: HR
+
+Enter your choice: 4
+Enter employee ID to find: 101
+Employee found: Employee ID: 101, Name: John Doe, Department: HR
+
+Enter your choice: 5
+Exiting...
